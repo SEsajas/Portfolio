@@ -1,0 +1,17 @@
+ul{
+    color: white;
+    list-style: none;
+}
+p{
+    color: white;
+    font-size: 30px;
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+}
+h3{
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    Font-Size: 48px;
+}

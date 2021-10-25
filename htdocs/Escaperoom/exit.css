@@ -1,0 +1,30 @@
+.open-door{
+    position: relative;
+    width: 32%;
+    height: 50%;
+    top: 34%;
+    left: 40%;
+}
+.mirror{
+    position: relative;
+    width: 30%;
+    height: 35%;
+    top: 12%;
+    left: -20%;
+    z-index: 1;
+}
+.lamp{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    top: -11%;
+    right: 24%;
+    z-index: 1;
+}
+.shoe{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 55%;
+    z-index: 1;
+}

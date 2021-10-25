@@ -1,0 +1,48 @@
+.lamp{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    top: -4%;
+    left: 35%;
+    z-index: 1;
+}
+.tv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 15%;
+    left: 5%;
+}
+.mirror{
+    position: relative;
+    width: 30%;
+    height: 35%;
+    top: 20%;
+    left: -10%;
+    z-index: 1;
+}
+
+.yellow{
+    position: relative;
+    width: 15%;
+    height:  15%;
+    left: 7%;
+    top: -120%;
+    z-index: 2;
+}
+.clock{
+    position: relative;
+    width: 25%;
+    height: 25%;
+    top: -115%;
+    left: 45%;
+    z-index: 1;
+}
+.flower{
+    position: relative;
+    width: 20%;
+    height: 25%;
+    right: 35%;
+    top: -120%;
+    z-index: 1;
+}

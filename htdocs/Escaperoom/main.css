@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  background-image: url(/Escaperoom/picture/wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  
+}

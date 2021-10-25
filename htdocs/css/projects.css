@@ -1,0 +1,34 @@
+h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 130% !important;
+    height: 100%;
+    z-index: -1;
+    background-color: #25AAE6;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+h4{
+    color: black !important;
+}
+.button {
+    background-color: #25AAE6;
+    border: none;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

@@ -1,0 +1,72 @@
+.lamp{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    top: -46%;
+    right: 13%;
+    z-index: 0;
+}
+.board{
+    position: relative;
+    width: 40%;
+    height: 30%;
+    right: 25%;
+    top: 12%;
+    z-index: 1;
+}
+.desk{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 5%;
+    left: 30%;
+}
+.shelf{
+    position: relative;
+    width: 30%;
+    height: 35%;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+}
+.bin{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    left: 75%;
+    bottom: 20%;
+    z-index: 1;
+}
+
+.math{
+    position: relative;
+    width: 37%;
+    height: 27%;
+    right: 14%;
+    bottom: 69%;
+    z-index: 1;
+}
+.note1{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    bottom: 70%;
+    left: 30%;
+    z-index: 1;
+}
+.note2{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    bottom: 70%;
+    left: 5%;
+    z-index: 1;
+}
+.note3{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    bottom: 50%;
+    left: 3%;
+    z-index: 1;
+}

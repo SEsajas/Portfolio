@@ -1,0 +1,43 @@
+.door{
+    position: relative;
+    width: 20%;
+    height: 50%;
+    top: 31%;
+    left: 45%;
+}
+.mirror{
+    position: relative;
+    width: 30%;
+    height: 35%;
+    top: 0%;
+    left: -10%;
+    z-index: 1;
+}
+.lamp{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    top: -11%;
+    right: 20%;
+    z-index: 1;
+}
+.shoe{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 55%;
+    z-index: 1;
+}
+.start-button {
+    background-color: #25AAE6;
+    position: relative; 
+    left: 6%;
+    top: 20%;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+  }

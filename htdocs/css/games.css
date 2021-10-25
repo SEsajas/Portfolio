@@ -1,0 +1,18 @@
+h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -124%;
+    width: 130% !important;
+    height: 100%;
+    z-index: -1;
+    background-color: #25AAE6;
+}
+.escape{
+height: 60%;
+width: 60%;
+}
+.t-t-t{
+    height: 60%;
+    width: 60%;
+}

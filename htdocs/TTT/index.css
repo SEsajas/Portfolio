@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+    top: 150px;
+    
+}
+h1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 130% !important;
+    height: 100%;
+    z-index: -1;
+    background-color: #4A73AD;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background: #222;
+}
+
+.header > * {
+    color: #eeeeee;
+}
+
+.header__turn {
+    padding: 12px;
+}
+
+.header__status {
+    padding: 12px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__restart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.board {
+    display: grid;
+    background: #cccccc;
+    gap: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.board__tile {
+    background: #eef6ff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family: cursive;
+    color: #222222;
+}
+
+.board__tile:hover {
+    background: #fff;
+}
+
+.board__tile--winner {
+    color: green;
+}
+.container-color{
+    height: 1250px;
+}
+.button {
+    background-color: #25AAE6;
+    border: none;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  p{
+    text-align: left;
+    font-size: 30px;
+}

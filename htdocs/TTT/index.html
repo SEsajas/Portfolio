@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="/TTT/index.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class= "container">   
+        <h1>Tic - Tac - Toe</h1>
+    </div>
+    <div class="container container-color">
+        <p>Add a player:</p>
+    <input name="player-name" value="" type="text" class="input-field inputfield-player-name" placeholder="Player name">
+    <button type="button" class="button add-player-button">Add player</button>
+    <p>Delete the last player</p>
+    <button type="button" class="button delete-player-button">Delete player</button>
+    <p>Current players:<p>
+        <label class="display">
+            
+        </label>
+        <br>
+    <div class="buttons">
+        <button class=" button add-x-btn">Add x</button>
+        <button class="button add-o-btn">Add o</button>
+        <button class=" button scoreCheck">Check score</button>
+        <button type="button" class=" button delete-score">Delete Score</button>
+    </div>
+    <div id="app"></div>
+</div>
+    <script src="/TTT/main-ttt.js" type="module"></script>
+</body>
+</html>

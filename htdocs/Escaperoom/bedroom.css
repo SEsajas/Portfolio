@@ -1,0 +1,38 @@
+.painting{
+    position: relative;
+    width: 50%;
+    height: 55%;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+.bed{
+    position: relative;
+    width: 40%;
+    height: 50%;
+    top: 45%;
+    right: 20%; 
+}
+.lamp{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    top: -66%;
+    left: 30%;
+    z-index: 0;
+}
+.paper{
+    position: relative;
+    width: 8%;
+    height: 8%;
+    bottom: -3%;
+    left: 15%;
+    z-index: 0;
+}
+.closet{
+    position: relative;
+    width: 40%;
+    height: 50%;
+    bottom: 20%;
+    left: 20%; 
+}
